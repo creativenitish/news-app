@@ -11,7 +11,7 @@ const App = () => {
       <Suspense fallback={<div>Loading...</div>}>
       {/* <Header /> */}
       <main className="py-2">
-        <Container>          
+        <Container fluid>          
           <Route path='/' component={HomeScreen} exact/>
         </Container>
       </main>      
